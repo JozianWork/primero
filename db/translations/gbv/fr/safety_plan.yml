@@ -1,22 +1,22 @@
 ---
 fr:
   safety_plan:
-    name: Plan de sécurité
-    description: Plan de sécurité
-    # form_group_name: ""
+    name: Plan visant à assurer la sécurité en cas de violence
+    description: Plan visant à assurer la sécurité en cas de violence
+    form_group_name: Plan visant à assurer la sécurité en cas de violence
     fields:
       safety_plan_needed:
-        display_name: ""
-        help_text: ""
+        display_name: "Est-ce qu'un Plan visant à assurer la sécurité en cas de violence est nécéssaire dans ce cas?"
+        help_text: 'Plan visant à assurer la sécurité en cas de violence permet à la survivante d''avoir un plan d''action pré-déterminé lorsqu''elle fait face à une situation menaçante. Le Plan de sécurité peut permettre à réduire le dommage causé par l''auteur des violences en identifiant des ressources et des moyens pour éviter le dommage ainsi que des lieux où elle peut aller de manière temporaire afin d''être en sécurité. Développer un plan de sécurité est un processus collaboratif entrepris conjointement par la gestionnaire de cas et la survivante. Le Plan de sécurité répond à la question fondamentale: qu''est-ce qui doit se faire ou être mis en place afin que la survivante soit en sécurité? Cela inclut l''identification de: situations dangereuses, risques, signes précurseurs, activités que la survivante peut faire par elle même, personnes spécifique qu''elle peut appeler à l''aide, personnes de soutien qui permet à la survivante de se sentir en sécurité et les points forts de la survivante qui lui permet de s''en sortir. '
       safety_plan_developed_with_survivor:
-        display_name: ""
+        display_name: "Est-ce que le Plan visant à assurer la sécurité en cas de violence a été développé avec la survivante (si applicable)?"
       safety_plan_completion_date:
-        display_name: ""
+        display_name: Date de remplissage du Plan visant à assurer la sécurité en cas de violence
       safety_plan_main_concern:
         display_name: Identifier les problèmes de sécurité (avec les mots de la survivante)
       safety_plan_resources_header:
         display_name: Ressources
-        help_text: ""
+        help_text: Citer les ressources que j'utilise maintenant qui peuvent me permettre d'être en sécurité dans les catégories suivantes
       safety_plan_resources_economic:
         display_name: Economiques/ matériels
       safety_plan_resources_relationships:
@@ -28,17 +28,17 @@ fr:
       safety_plan_preparedness_header:
         display_name: Prévention sécuritaire
       safety_plan_preparedness_signal:
-        display_name: ""
-        guiding_questions: ""
+        display_name: "Quelles sont les étapes que la survivante identifie comme options pour réduire le dommage pour elle-même (et ses enfants) avant que la violence n'arrive (préparation de la sécurité)?"
+        guiding_questions: 'Les exemples peuvent inclure: La survivante va se mettre d''accord avec ses amis, voisins ou famille sur un code ou signal afin de les informer qu''elle a besoin d''aide si elle ne peut pas parler devant l''auteur des violences; La survivante va rassembler des objets de base et des documents importants et les placer dans un endroit facilement accessible si elle doit quitter sa maison (lister ces objets); La survivante va apprendre à ses enfants que si la violence commence ils doivent se rendre dans un lieu spécifique; La survivante va inventer un signe ou un code avec ses enfants pour leur dire qu''ils doivent partir. Veuillez vous référer à l''Outil de Plan visant à assurer la sécurité en cas de violence pour la liste complète des questions à discuter avec la survivante.'
       safety_plan_strategies_header:
-        display_name: Statégies de sécurisation
+        display_name: Stratégies de sécurisation
       safety_plan_preparedness_gathered_things:
-        display_name: ""
-        guiding_questions: ""
+        display_name: "Quelles actions est-ce que la survivante a identifié comme options pour réduire les risques lorsque la violence a lieu (stratégies de protection)? "
+        guiding_questions: 'Les exemples peuvent inclure: La survivante peut reconnaître des tendances dans la violence de l''agrésseur qui peuvent lui indiquer qu''il est sur le point de devenir violent, tels que (certaines heures de la journée ou de la semaine, lorsqu''il est avec des amis, lorsque qu''il consomme des drogues ou de l''alcool, etc.): La survivante peut identifier des tendances dans la violence ou lorsque la violence commence; Si la survivante doit quitter sa maison, elle sait où aller; La survivante va s''arranger avec ses amis, sa famille, etc. pour voir si elle peut rester avec eux si elle doit partir; La survivante va s''arranger avec ces gens pour voir s''ils peuvent lui prêter de l''argent ou de la nourriture en cas d''urgence. Veuillez vous référer à l''Outil de Plan visant à assurer la sécurité en cas de violence pour la liste complète des questions à discuter avec la survivante.'
       safety_plan_leaving_steps_header:
-        display_name: ""
+        display_name: Etapes après avoir quitter le domicile conjugale
       safety_plan_preparedness_children_destination:
-        display_name: ""
-        guiding_questions: ""
+        display_name: "Quelles étapes est-ce que la survivante a identifié comme options pour réduire les risques après avoir quitter sa maison/communauté si elle choisit de le faire?"
+        guiding_questions: 'Les exemples peuvent inclure: La survivante sait comment gérer émotionnellement si des personnes la blâme pour être partie; La survivante sait à qui parler pour trouver du soutien; La survivante reconnaît que la situation lui cause traumatisme et stress; La survivante sait quoi faire pour se sentir plus forte.'
       safety_plan_completion_timing:
-        display_name: ""
+        display_name: "Combien de temps ça vous a pris pour développer le Plan de Plan visant à assurer la sécurité en cas de violence?"
