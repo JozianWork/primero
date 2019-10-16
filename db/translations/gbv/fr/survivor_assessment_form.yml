@@ -3,53 +3,71 @@ fr:
   survivor_assessment_form:
     name: Evaluation de la survivante
     description: Evaluation de la survivante
-    # form_group_name: Evaluation de la survivante
+    form_group_name: Evaluation de la survivante
     fields:
       assessment_emotional_state_start:
         display_name: Profil de la survivante
-        help_text: ""
-        guiding_questions: |
+        help_text: "Fournir des informations démographiques de base sur la survivante, y compris sexe, âge, statut de déplacement et toute autre information pertinente."
+        guiding_questions: |-
+          Est-ce que la survivante est une femme, une fille, un homme ou un garçon ou une autre entité sexuelle?
+
+          Quel âge a la survivante? Est-ce un enfant ou un adulte?
+
+          Est-ce qu'elle est résidente, réfugiée ou déplacée interne?
       assessment_survivor_background:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Contexte de la survivante (ou information sur le contexte)
+        guiding_questions: "Fournir des informations contextuelles de base sur la survivante, notamment sa situation de famille, où vit-elle, sa profession ou son rôle dans la communauté, ou d'autres informations pertinentes."
       assessment_family_situation:
-        display_name: ""
-        guiding_questions: |
+        display_name: Situation familiale de la survivante (pour les adultes)
+        guiding_questions: |-
+          Situation familiale de la survivante adulte:
+
+          Est-ce qu'elle est mariée et/ou vit-elle avec un partenaire intime? (Si son mari ou partenaire intime n'est pas l'auteur des violences, est-ce qu'il sait ce qui lui est arrivé?)
+
+          A t-elle des enfants? Si oui, combien et quel âge ont-ils? Est-ce qu'ils vivent avec elle?
+
+          Qui sont les autres membres de la famille présents dans la vie de la cliente au jour le jour? Est-ce que la survivante a d'autres membres de sa famille qui sont présents dans sa vie?
       assessment_current_living_situation:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Situation de vie actuelle de la survivante
+        guiding_questions: "Est-ce que la survivante a un endroit où vivre? Si oui, où? Qui vit dans sa maison avec elle? Est-ce qu'elle vit avec son mari ou partenaire intime? Est-ce que d'autres membres de la famille vivent dans les environs?"
       assssment_survivor_occupation:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Profession de la survivante ou rôle
+        guiding_questions: "Est-ce que la survivante travaille? Est-ce qu'elle travaille depuis chez elle? Est-ce qu'elle a un emploi rémunéré? Plein temps ou mi-temps? Est-ce que la survivante joue un rôle particulier dans la communauté où elle vit?"
       assessment_child_considerations:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Considérations spéciales pour les enfants survivants
+        guiding_questions: "Est-ce qu'elle vit avec ses parents? (Si ces parents ou tuteurs légaux ne sont pas les auteurs des violences, est-ce qu'ils sont au courant de ce qui lui est arrivé?) Qui sont les autres membres de la famille présents dans la vie de la cliente au jour le jour? Est-ce que la survivante a d'autres membres de famille présents dans sa vie?"
       assessment_presenting_problem:
-        display_name: ""
-        guiding_questions: |
+        display_name: Présenter le problème
+        guiding_questions: |-
+          Décrire ce qui est arrivé à la survivante dans ses propres mots. Identifier pour quel(s) problème(s)/inquiétude(s)/question(s) la survivante a demandé de l'assistance/aide. 
+
+          Lister les principaux problèmes de la survivante dans ces propres mots (ne suggérez pas). Cela peut inclure: sécurité immédiate, sécurité des enfants, accès aux ressources économiques, assistance médicale, perception des autres, etc.
       assessment_emotional_state_end:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Décrire ce qui est arrivé à la survivante dans ses propres mots
+        guiding_questions: "Qu'est-il arrivé à la survivante? Quelle est la nature de la violence? Quand est-ce que cela s'est passé? Qu'est-ce qui a poussé la survivante a accédé à des services? Quelles sont ses principaux problèmes? Pourquoi demande t-elle de l'aide?"
       assessment_main_concerns:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Points d'évaluation clés
+        guiding_questions: "Résumer les points d'évaluation clés par rapport à la nature, délais, fréquence et sévérité de la violence rapportés, qui est/sont le(s) auteur(s) de la violence en relation avec la survivante et dans quel mesure il/ils a/ont accès facilement à la survivante, afin de déterminer le risque. Evaluer le bien-être émotionnel, capacité à maintenir les tâches quotidienne et capacité à faire confiance aux autres. Identifier les besoins de la survivante (sécurité, pratiques/matériels, autres) ainsi que ses ressources et stratégies d'adaptation afin de déterminer le besoin en soutien psychosocial approprié et/ou effectuer des référencements rapides. "
       assessment_current_situation:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Situation actuelle et risques imminents
+        guiding_questions: "Identifier les situations, circonstances et personnes qui continuent à faire du mal à la survivante et de la mettre en danger. \n\nEst-ce que le/les auteur(s) des violences sait/savent où la survivante se trouve? Si oui, est-ce que la survivante pense que le(s) auteur(s) peuvent venir la trouver ici? \n\nQuand est-ce que l'incident a eu lieu (date/heure)? Est-ce que la survivante saigne ou a une blessure grave ou une douleur importante (particulièrement au niveau de la tête)? Est-ce qu'il a eu une pénétration vaginale/anale? Est-ce que la violence physique ou des armes ont été utilisés? A quelle fréquence est-ce que la survivante a été exposé à une violence telle que cet incident?\n\nQuelle est la relation entre la survivante et l'auteur des violences? Est-ce qu'il a accès à une arme? Est-ce qu'il a facilement accès à la survivante (ex. vit dans le même voisinage, maison, etc.)? Est-ce qu'il a un passif de violence contre les autres, abus de drogues ou alcool, et/ou un passif de dépression ou autres problèmes de santé mentale?\n\nEst-ce que la survivante a déjà cherché de l'aide  et/ou a déjà reçu des soins et traitements? Est-ce que la survivante a exprimé des idées suicidaires actuelles ou passés? (Si oui, suivre le Protocole de l'Evaluation des risques de suicide)"
       assessment_safety_needs:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Besoins en sécurité
+        guiding_questions: 'Est-ce que la survivante est en danger immédiate lorsqu''elle va partir d''ici? A quel point se sent-elle en sécurité chez elle? (Notez: la gestionnaire de cas peut utiliser des outils tels que l''évaluation de la sécurité afin de déterminer cela). Est-ce que la survivante a déjà tenté de chercher de l''aide de quelqu''un d''autre? Est-ce qu''il y a des aspects du profile de l''auteur des violences ou du type de violence qui place la survivante en danger immédiat?'
       assessment_health_needs:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Besoins de santé
+        guiding_questions: "Est-ce que la cliente requiert et/ou veut une attention médicale? Est-ce que le dernier incident a eu lieu dans les 120 heures passées? Est-ce que la survivante souhaiterait savoir davantage sur les options de médicaments et examens? Est-ce que la survivante se plaint de douleurs physiques ou de blessures, saignements ou pertes?"
       assessment_psychosocial_needs:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Besoins psychosociaux
+        guiding_questions: "Comment la survivante décrit son état émotionnel?\n\nSur la base de vos observations, comment décririez-vous l'apparence et l'attitude de la survivante? Y-a t-il quelque chose d'étrange ou d'inhabituel dans son apparence ou comportement en ce moment? Quel est votre avis sur son niveau de fonctionalité? (Soyez attentif à des indications que la survivante a cessé de quitter sa maison, poursuivre ses activités quotidiennes, parler avec ou voir sa famille et ses amis, ou suivre ses habitudes de sommeil ou d'alimentation).\n\nEst-ce que la survivante se sent triste la plupart du temps? Est-ce qu'elle se plaint de douleurs physiques? Est-ce qu'il y a d'autres changements ou difficultés qu'elle a partagé?\n\nQuels types de soutien social est-ce que la survivante a? A qui est-ce qu'elle aime parler ou passer du temps en dehors de chez elle? Est-ce qu'elle a des amis? Des personnes a qui elle fait confiance? Qui sont les personnes qui donne du soutien émotionnel à la survivante? Est-ce qu'elle a pu accéder à ces personnes depuis l'incident? Comment les ont-elle aidé? Qui ou quels sont les personnes, choses, idées ou expériences dans la vie de la survivante qu'elle identifie comme lui apportant de l'espoir et de la force? \n\n Quels sont ses ressources existentes (ex. personnes, connaissances, compétences, ressources, hébergement)? Est-ce qu'elle a des mécanismes d'adaption positifs? Lesquels sont-ils? Est-ce qu'elle a fait appel à la religion et/ou la foi depuis l'incident? Est-ce que ça l'a aidé?"
       assessment_legal_needs:
-        display_name: ""
-        guiding_questions: |
+        display_name: Besoins juridiques/légaux
+        guiding_questions: |-
+          Est-ce que la survivante souhaite faire un rapport aux autorités et/ou prendre une action légale? 
+
+          Quels sont les risques, bénéfices et coûts que la survivante doit prendre en considération dans sa décision de suivre une action légale? Est-ce qu'un recours légal est une priorité immédiate pour la survivante? De quelles informations a besoin la survivante sur ces droits et/ou options pour amener son cas devant les tribunaux  ou le système judiciaire traditionnel/informel? Est-ce que la survivante comprend les différences entre comme un cas peut être gérer devant les instances traditionnels vs. justice formelle? 
       assessment_material_needs:
-        display_name: ""
-        guiding_questions: ""
+        display_name: Besoins pratiques/matériels
+        guiding_questions: "Est-ce que la survivante a accès à un revenu? Est-ce qu'elle a accès à de la nourriture, des habits, un téléphone avec du crédit, des transports, etc.? Quelles sont ses sources de soutien, y compris la famille et la communauté? Est-ce que l'absence de revenu de la survivante affecte sa capacité à être en sécurité? Est-ce que le manque (ou accès à) un revenu la met en danger de violence? "
       assessment_completion_timing:
-        display_name: ""
+        display_name: "Combien de temps cela vous a pris pour compléter l'évaluation pour ce cas?"
